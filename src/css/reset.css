@@ -1,0 +1,19 @@
+/* -Criação de seletores css, e suas propriedades e valores.   
+
+- Começando a criar um seletor como asterisco (*), e os demais sucessivamente.
+*/
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
