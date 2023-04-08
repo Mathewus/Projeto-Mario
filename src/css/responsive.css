@@ -28,16 +28,24 @@
         flex-direction: column;
     }
 
-    .container .descricao {
-
+    .container .descricao,
+    .container .info-descricao {
         color: #ffffff;
-        text-align: center;
+        text-align: justify;
     }
 
-.container .botao-trailer {
+    .redes-sociais .info-social{
+        color: #ffffff;
+    }
+    
+    path{
+        fill: #ffffff;
+    }
 
-    background-color: #263238;
-}
+    .container .botao-trailer,
+    .botao-detalhe {
+        background-color: #263238;
+    }
 
 }
 
@@ -54,7 +62,6 @@
 
     .container .imagem-titulo {
         max-width: 75%;
-
     }
 
     .modal .fechar-modal {
