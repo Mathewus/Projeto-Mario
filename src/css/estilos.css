@@ -160,6 +160,7 @@ path{
     left: 0;
     background-color: rgba(52, 52, 50, 0.749);
     visibility: hidden;
+    /* display: none; */
 }
 
 .conteudo-modal {
@@ -192,4 +193,5 @@ path{
 .modal.aberto {
     opacity: 1;
     visibility: visible;
+    /* display: block; */
 }
